@@ -27,6 +27,15 @@
       "type": "component",
       "repeatable": true,
       "component": "steps.steps"
+    },
+    "Finish": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
     }
   }
 }

@@ -19,6 +19,16 @@
       "repeatable": true,
       "component": "ingredient.ingredient",
       "required": true
+    },
+    "StepImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
     }
   }
 }
